@@ -1,0 +1,79 @@
+body{
+    background-color: orange;
+    font-family: "Calibri";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#container{
+    position: relative;
+    padding-left: 5px;
+    width: 305px;
+    height: 550px;
+    background-color: beige;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#history{
+    background-color: beige;
+    border-radius: 5px;
+    width: 240px;
+    height: 30px;
+    padding: 10px;
+    font-size: 25px;
+    text-align: right;
+    border-bottom: 2px;
+    border-bottom-color: aqua;
+    margin: 0 12px;
+    overflow: hidden;
+}
+
+#screen{
+    background-color: beige;
+    border-radius: 5px;
+    width: 240px;
+    height: 60px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: right;
+    overflow: hidden;
+}
+
+#keyboard{
+    width: 300px;
+    height: 380px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.button{
+    margin: 3px;
+    position: relative;
+    float: left;
+    width: 69px;
+    height: 69px;
+    border-width: 2px;
+    font-family: "Calibri";
+    font-size: 16px;
+    border-width: 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:active{
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+    font-size: 12px;
+    color: firebrick;
+}
+
+#eq{
+    background-color: blueviolet;
+}
+
+#ce{
+    background-color: coral;
+}
